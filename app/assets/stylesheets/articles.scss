@@ -1,0 +1,73 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+h1 {
+  color: rgba(0,0,0,.3);
+  font-weight: bolder;
+  align-text: center;
+  margin: 30px 30px;
+
+}
+h3 {
+  padding: 20px, 20px;
+  text-align: left;
+
+}
+.btn-medium{
+  background-color: white;
+  color: rgba(0,0,0,.3);
+  padding: 8px 24px;
+  border-radius: 32px;
+  font-weight: 100;
+  border:1px solid rgba(0,0,0,.3);
+  transition:.3s;
+  height:32px;
+  width:160px;
+  text-decoration:none;
+
+}
+.btn-medium:hover{
+  border:1px solid rgba(0,0,0,.5);
+  color: rgba(0,0,0,.5);
+
+}
+
+.in-medium{
+  background-color: white;
+  color: rgba(0,0,0,.3);
+  width: 300px;
+  padding: 8px 24px;
+  border-radius: 32px;
+  font-weight: 100;
+  border:1px solid rgba(0,0,0,.3);
+  transition:.3s;
+}
+.in-medium:hover{
+  border:1px solid rgba(0,0,0,.5);
+  color: rgba(0,0,0,.5);
+  }
+.card {
+  display: flex;
+  align-items: left;
+  justify-content: space-between;
+  padding: 10px 10px;
+  margin: 8px;
+  color: rgba(0,0,0,.7) ;
+  height: auto;
+  border-radius: 4px;
+  box-shadow: 0px 3px 8px rgba(0,0,0,.2);
+  align-text: left;
+}
+.container{
+  margin:auto;
+  width: 800px;
+  padding: 30px 20px;
+  align-text: left;
+
+}
+.image{
+  height:88px;
+  width:88px;
+
+
+}

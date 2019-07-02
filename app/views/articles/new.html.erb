@@ -1,0 +1,14 @@
+<div class="container">
+  <h1>Create a new article</h1>
+  <p>Let your imagination (or bullshit) flow!</p>
+  <%= form_for @article do |f| %>
+    <%= f.label :title, "enter the title of your new article" %>
+    <%= f.text_field :title %>
+    <%= f.label :content, "tell us what is so important" %>
+    <%= f.text_field :content %>
+    <%= f.submit %>
+  <% end %>
+  <button class="btn-medium">
+    <%= link_to "back to the articles", articles_path %>
+  </button>
+</div>

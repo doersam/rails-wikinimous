@@ -5,6 +5,6 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-  10.times {Article.new(Faker::TvShows::HowIMetYourMother.high_five, Faker::TvShows::HowIMetYourMother.quote)}
+  10.times { Article.create(title: Faker::TvShows::HowIMetYourMother.high_five, content:Faker::TvShows::HowIMetYourMother.quote)}
 
 

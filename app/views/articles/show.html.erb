@@ -1,0 +1,14 @@
+<div class="container">
+  <h1>Wikinimous articles</h1>
+    <div class="article">
+      <img src="../app/assets/images" alt="this should be an image">
+      <h2><%= @article.title %></h2>
+      <p><%= @article.content %></p>
+    </div>
+    <button class="btn-medium">
+      <%= link_to "edit this article", "./#{@article.id}/edit" %>
+    </button>
+    <button class="btn-medium">
+      <%= link_to "back to the articles", articles_path %>
+    </button>
+</div>

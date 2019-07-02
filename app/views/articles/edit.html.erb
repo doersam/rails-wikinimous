@@ -1,0 +1,13 @@
+<div class="container">
+  <h1>Edit a crappy article</h1>
+  <p>Let your imagination (or bullshit) flow!</p>
+  <%= form_for @article do |f| %>
+    <h2><%= @article.title %></h2>
+    <%= f.label :content, "tell us whats wrong here!" %>
+    <%= f.text_field :content %>
+    <%= f.submit %>
+  <% end %>
+  <button class="btn-medium">
+    <%= link_to "back to the articles", articles_path %>
+  </button>
+</div>
